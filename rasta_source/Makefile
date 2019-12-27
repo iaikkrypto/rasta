@@ -12,7 +12,7 @@ TITLE=demo
 # make all
 all: test
 
-test: *.cpp *.h
+test: *.cpp
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
 run: test
